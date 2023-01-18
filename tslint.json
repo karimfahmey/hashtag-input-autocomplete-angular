@@ -1,0 +1,10 @@
+{
+  "extends": "tslint-config-mwl",
+  "rules": {
+    "directive-selector": [true, "attribute", "mwl", "camelCase"],
+    "component-selector": [true, "element", "mwl", "kebab-case"],
+    "no-inferrable-types": false,
+    "no-unused-expression": false,
+    "max-inline-declarations": false
+  }
+}
